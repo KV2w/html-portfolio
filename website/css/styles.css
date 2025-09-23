@@ -1,1 +1,12 @@
-/* TBD */
+h2, h3, h4 {
+    color:rgb(85, 130, 213);
+
+}
+
+body {
+    background-color: rgb(217, 234, 255);
+}
+
+h1{
+    color: rgb(0, 0, 0);
+}
