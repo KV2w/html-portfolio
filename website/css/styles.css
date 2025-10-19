@@ -1,15 +1,18 @@
 /* HEADER STYLING */
 nav {
-    background-color: aquamarine;
+    background-color: beige;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
 }
 .flex-container {
     display: flex;
     justify-content: right;
     align-items: center;
-    gap: 20px;
-    padding: 10px;
-    border: solid;
-    border-color: green;
+    gap: 15px;
+    padding: 5px; 
 }
 
 .icons {
@@ -49,9 +52,29 @@ body {
 .headshot {
     display: flex;
     border: solid;
+    border-color: green;
+    margin-top: 60px;
+    height: 200px;
 }
 
 .headshot img {
-    border-radius: 50px;
+    border-radius: 100px;
+    margin-left: 20px;
+}
+
+.intro {
+    border: solid;
+    margin: 50px 20px;
+    text-align:center;
+}
+
+.content {
+    border: solid;
+    margin-top: 20px;
+}
+
+.projects {
+    border: solid;
+    margin-top: 20px;
 }
 
