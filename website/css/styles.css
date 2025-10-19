@@ -1,20 +1,57 @@
+/* HEADER STYLING */
+nav {
+    background-color: aquamarine;
+}
+.flex-container {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    border: solid;
+    border-color: green;
+}
 
+.icons {
+    border: solid;
+    border-color: blue;
+    border-radius: 5px;
+}
 
+.icons a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    gap: 10px;
+    padding: 5px;
+    
+}
 
+.icons img {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+    
+}
 
-
-
-
-
-/* h2, h3, h4 {
-    color:rgb(86, 131, 214);
+.icons a:hover {
+    background-color: gray;
+    border-radius: 2px;
 
 }
 
 body {
-    background-color: rgb(217, 234, 255);
+    background-color: white;
 }
 
-h1{
-    color: rgb(0, 0, 0);
-} */
+/* MAIN CONTENT */
+.headshot {
+    display: flex;
+    border: solid;
+}
+
+.headshot img {
+    border-radius: 50px;
+}
+
