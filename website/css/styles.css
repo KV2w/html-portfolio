@@ -1,15 +1,18 @@
 /* HEADER STYLING */
-nav {
-    background-color: aquamarine;
+html {
+    background: rgb(222, 222, 222);
 }
-.flex-container {
+nav {
+    background-color: rgb(68, 158, 255);
+    width: 100vw;
+}
+.icons-flex-container {
     display: flex;
     justify-content: right;
     align-items: center;
     gap: 20px;
     padding: 10px;
     border: solid;
-    border-color: green;
 }
 
 .icons {
@@ -41,17 +44,20 @@ nav {
 
 }
 
-body {
-    background-color: white;
-}
+
 
 /* MAIN CONTENT */
-.headshot {
+.headshot-container {
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1.5rem;
     border: solid;
 }
 
-.headshot img {
-    border-radius: 50px;
+.headshot-container img {
+    border-radius: 100px;
+    box-shadow: 5px 5px 5px;
+    border: solid;
 }
 
