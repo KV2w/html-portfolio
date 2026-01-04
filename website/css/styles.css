@@ -1,4 +1,5 @@
 /* HEADER STYLING */
+<<<<<<< HEAD
 nav {
     background-color: beige;
     position: fixed;
@@ -6,13 +7,27 @@ nav {
     left: 0;
     right: 0;
     height: 50px;
+=======
+html {
+    background: rgb(222, 222, 222);
+>>>>>>> daily-journal
 }
-.flex-container {
+nav {
+    background-color: rgb(68, 158, 255);
+    width: 100vw;
+}
+.icons-flex-container {
     display: flex;
     justify-content: right;
     align-items: center;
+<<<<<<< HEAD
     gap: 15px;
     padding: 5px; 
+=======
+    gap: 20px;
+    padding: 10px;
+    border: solid;
+>>>>>>> daily-journal
 }
 
 .icons {
@@ -44,19 +59,21 @@ nav {
 
 }
 
-body {
-    background-color: white;
-}
+
 
 /* MAIN CONTENT */
-.headshot {
+.headshot-container {
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1.5rem;
     border: solid;
     border-color: green;
     margin-top: 60px;
     height: 200px;
 }
 
+<<<<<<< HEAD
 .headshot img {
     border-radius: 100px;
     margin-left: 20px;
@@ -76,5 +93,11 @@ body {
 .projects {
     border: solid;
     margin-top: 20px;
+=======
+.headshot-container img {
+    border-radius: 100px;
+    box-shadow: 5px 5px 5px;
+    border: solid;
+>>>>>>> daily-journal
 }
 
